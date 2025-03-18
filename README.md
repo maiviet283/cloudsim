@@ -22,7 +22,7 @@
 CloudSim là một công cụ mạnh mẽ giúp mô phỏng các mô hình điện toán đám mây mà không cần triển khai thực tế trên hệ thống vật lý. Điều này giúp tiết kiệm chi phí, thời gian và dễ dàng thử nghiệm nhiều kịch bản khác nhau.
 
 🛠️ **Kết quả mong đợi:**  
-🔹 Nắm vững kiến thức về điện toán đám mây và mô hình cung cấp tài nguyên.  
+🔹 Nắm vững kiến thức về điện toán đám mây và mô hình cung cấp tài nguyên. 
 🔹 Hiểu rõ cách CloudSim hoạt động và cách áp dụng nó vào thực tế.  
 🔹 Xây dựng demo mô phỏng một hệ thống đám mây cơ bản.
 
