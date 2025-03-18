@@ -1,0 +1,5 @@
+# Created at 2025-03-18T19:43:39.983
+Boot Manifest-JAR contains absolute paths in classpath 'D:\CodeJava\cloudsim\modules\cloudsim-examples\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

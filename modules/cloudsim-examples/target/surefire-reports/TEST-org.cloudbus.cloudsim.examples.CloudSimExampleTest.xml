@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="6.355" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\CodeJava\cloudsim\modules\cloudsim-examples\target\test-classes;D:\CodeJava\cloudsim\modules\cloudsim-examples\target\classes;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-net\commons-net\3.11.1\commons-net-3.11.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Admin\.m2\repository\io\gatling\uncommons\maths\uncommons-maths\1.2.3\uncommons-maths-1.2.3.jar;C:\Users\Admin\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\com\maxmind\geoip2\geoip2\4.2.0\geoip2-4.2.0.jar;C:\Users\Admin\.m2\repository\com\maxmind\db\maxmind-db\3.1.0\maxmind-db-3.1.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\Admin\.m2\repository\org\easymock\easymock\5.3.0\easymock-5.3.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.4\objenesis-3.4.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\CodeJava\cloudsim\modules\cloudsim\target\cloudsim-7.0.0-alpha.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire14832144379102121873\surefirebooter-20250318194339961_3.jar C:\Users\Admin\AppData\Local\Temp\surefire14832144379102121873 2025-03-18T19-43-39_048-jvmRun1 surefire-20250318194339961_1tmp surefire_0-20250318194339961_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\CodeJava\cloudsim\modules\cloudsim-examples\target\test-classes;D:\CodeJava\cloudsim\modules\cloudsim-examples\target\classes;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-net\commons-net\3.11.1\commons-net-3.11.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Admin\.m2\repository\io\gatling\uncommons\maths\uncommons-maths\1.2.3\uncommons-maths-1.2.3.jar;C:\Users\Admin\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\com\maxmind\geoip2\geoip2\4.2.0\geoip2-4.2.0.jar;C:\Users\Admin\.m2\repository\com\maxmind\db\maxmind-db\3.1.0\maxmind-db-3.1.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\Admin\.m2\repository\org\easymock\easymock\5.3.0\easymock-5.3.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.4\objenesis-3.4.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\CodeJava\cloudsim\modules\cloudsim\target\cloudsim-7.0.0-alpha.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\CodeJava\cloudsim\modules\cloudsim-examples"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire14832144379102121873\surefirebooter-20250318194339961_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.5"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="D:\CodeJava\cloudsim\modules\cloudsim-examples"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Roaming\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\Python\Python313\Scripts;C:\msys64\ucrt64\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Roaming\Composer\vendor\bin;D:\Nmap;D:\IntelliJ IDEA\IntelliJ IDEA 2024.3.5\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runCloudSimExample1" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.08">
+    <system-out><![CDATA[Starting CloudSimExample1...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 datacenter(s)
+0.0: Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.01: Broker: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker: Sending Cloudlet #0 to Vm #0
+400.01: Broker: Cloudlet #0 return received
+400.01: Broker: The number of finished Cloudlets is:1
+400.01: Broker: All Cloudlets executed. Finishing...
+400.01: Broker: Destroying Vm #0
+400.01: Broker is shutting down...
+400.01: Simulation: No more future events
+400.01: CloudInformationService is shutting down...
+400.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+400.01: Datacenter_0 is shutting down...
+400.01: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        400        0.01        400.01
+CloudSimExample1 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample2" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.007">
+    <system-out><![CDATA[Starting CloudSimExample2...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 datacenter(s)
+0.0: Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker: Trying to Create Vm #1 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #0
+0.01: Broker: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #1 has been created in Datacenter #2, Host #0
+0.01: Broker: Sending Cloudlet #0 to Vm #0
+0.01: Broker: Sending Cloudlet #1 to Vm #1
+1000.01: Broker: Cloudlet #0 return received
+1000.01: Broker: The number of finished Cloudlets is:1
+1000.01: Broker: Cloudlet #1 return received
+1000.01: Broker: The number of finished Cloudlets is:2
+1000.01: Broker: All Cloudlets executed. Finishing...
+1000.01: Broker: Destroying Vm #0
+1000.01: Broker: Destroying Vm #1
+1000.01: Broker is shutting down...
+1000.01: Simulation: No more future events
+1000.01: CloudInformationService is shutting down...
+1000.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+1000.01: Datacenter_0 is shutting down...
+1000.01: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        1000        0.01        1000.01
+    1        SUCCESS        2            1        1000        0.01        1000.01
+CloudSimExample2 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample3" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.006">
+    <system-out><![CDATA[Starting CloudSimExample3...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 datacenter(s)
+0.0: Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker: Trying to Create Vm #1 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #1
+0.01: Broker: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #1 has been created in Datacenter #2, Host #1
+0.01: Broker: Sending Cloudlet #0 to Vm #0
+0.01: Broker: Sending Cloudlet #1 to Vm #1
+80.01: Broker: Cloudlet #1 return received
+80.01: Broker: The number of finished Cloudlets is:1
+160.01: Broker: Cloudlet #0 return received
+160.01: Broker: The number of finished Cloudlets is:2
+160.01: Broker: All Cloudlets executed. Finishing...
+160.01: Broker: Destroying Vm #0
+160.01: Broker: Destroying Vm #1
+160.01: Broker is shutting down...
+160.01: Simulation: No more future events
+160.01: CloudInformationService is shutting down...
+160.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+160.01: Datacenter_0 is shutting down...
+160.01: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    1        SUCCESS        2            1        80        0.01        80.01
+    0        SUCCESS        2            0        160        0.01        160.01
+CloudSimExample3 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample4" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.006">
+    <system-out><![CDATA[Starting CloudSimExample4...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker: Trying to Create Vm #1 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0[GuestScheduler.guestCreate] Allocation of Vm #1 failed by Number of PEs or MIPS
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #1
+0.01: Broker: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker: Creation of Vm #1 failed in Datacenter #2
+0.01: Broker: Trying to Create Vm #1 in Datacenter_1
+0.01: Datacenter_1.guestAllocator: Vm #1 has been allocated to Host #0
+0.02: Broker: Vm #1 has been created in Datacenter #3, Host #0
+0.02: Broker: Sending Cloudlet #0 to Vm #0
+0.02: Broker: Sending Cloudlet #1 to Vm #1
+160.02: Broker: Cloudlet #0 return received
+160.02: Broker: The number of finished Cloudlets is:1
+160.02: Broker: Cloudlet #1 return received
+160.02: Broker: The number of finished Cloudlets is:2
+160.02: Broker: All Cloudlets executed. Finishing...
+160.02: Broker: Destroying Vm #0
+160.02: Broker: Destroying Vm #1
+160.02: Broker is shutting down...
+160.02: Simulation: No more future events
+160.02: CloudInformationService is shutting down...
+160.02: CloudInformationService: Notify all CloudSim entities for shutting down.
+160.02: Datacenter_0 is shutting down...
+160.02: Datacenter_1 is shutting down...
+160.02: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        160        0.02        160.02
+    1        SUCCESS        3            1        160        0.02        160.02
+CloudSimExample4 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample5" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.007">
+    <system-out><![CDATA[Starting CloudSimExample5...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker1 is starting...
+0.0: Broker2 is starting...
+Entities started.
+0.0: Broker1: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker2: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker1: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker2: Trying to Create Vm #0 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0[GuestScheduler.guestCreate] Allocation of Vm #0 failed by Number of PEs or MIPS
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #0
+0.01: Broker1: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker1: Sending Cloudlet #0 to Vm #0
+0.01: Broker2: Creation of Vm #0 failed in Datacenter #2
+0.01: Broker2: Trying to Create Vm #0 in Datacenter_1
+0.01: Datacenter_1.guestAllocator: Vm #0 has been allocated to Host #0
+0.02: Broker2: Vm #0 has been created in Datacenter #3, Host #0
+0.02: Broker2: Sending Cloudlet #0 to Vm #0
+160.01: Broker1: Cloudlet #0 return received
+160.01: Broker1: The number of finished Cloudlets is:1
+160.01: Broker1: All Cloudlets executed. Finishing...
+160.01: Broker1: Destroying Vm #0
+160.01: Broker1 is shutting down...
+160.02: Broker2: Cloudlet #0 return received
+160.02: Broker2: The number of finished Cloudlets is:1
+160.02: Broker2: All Cloudlets executed. Finishing...
+160.02: Broker2: Destroying Vm #0
+160.02: Broker2 is shutting down...
+160.02: Simulation: No more future events
+160.02: CloudInformationService is shutting down...
+160.02: CloudInformationService: Notify all CloudSim entities for shutting down.
+160.02: Datacenter_0 is shutting down...
+160.02: Datacenter_1 is shutting down...
+160.02: Broker1 is shutting down...
+160.02: Broker2 is shutting down...
+Simulation completed.
+Simulation completed.
+=============> User 4    
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        160        0.01        160.01
+=============> User 5    
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        3            0        160        0.02        160.02
+CloudSimExample5 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample6" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.036">
+    <system-out><![CDATA[Starting CloudSimExample6...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker: Trying to Create Vm #1 in Datacenter_0
+0.0: Broker: Trying to Create Vm #2 in Datacenter_0
+0.0: Broker: Trying to Create Vm #3 in Datacenter_0
+0.0: Broker: Trying to Create Vm #4 in Datacenter_0
+0.0: Broker: Trying to Create Vm #5 in Datacenter_0
+0.0: Broker: Trying to Create Vm #6 in Datacenter_0
+0.0: Broker: Trying to Create Vm #7 in Datacenter_0
+0.0: Broker: Trying to Create Vm #8 in Datacenter_0
+0.0: Broker: Trying to Create Vm #9 in Datacenter_0
+0.0: Broker: Trying to Create Vm #10 in Datacenter_0
+0.0: Broker: Trying to Create Vm #11 in Datacenter_0
+0.0: Broker: Trying to Create Vm #12 in Datacenter_0
+0.0: Broker: Trying to Create Vm #13 in Datacenter_0
+0.0: Broker: Trying to Create Vm #14 in Datacenter_0
+0.0: Broker: Trying to Create Vm #15 in Datacenter_0
+0.0: Broker: Trying to Create Vm #16 in Datacenter_0
+0.0: Broker: Trying to Create Vm #17 in Datacenter_0
+0.0: Broker: Trying to Create Vm #18 in Datacenter_0
+0.0: Broker: Trying to Create Vm #19 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #2 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #3 has been allocated to Host #1
+0.0: Datacenter_0.guestAllocator: Vm #4 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #5 has been allocated to Host #1
+0.0: No Datacenter Found: Allocation of Vm #6 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #6
+0.0: No Datacenter Found: Allocation of Vm #7 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #7
+0.0: No Datacenter Found: Allocation of Vm #8 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #8
+0.0: No Datacenter Found: Allocation of Vm #9 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #9
+0.0: No Datacenter Found: Allocation of Vm #10 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #10
+0.0: No Datacenter Found: Allocation of Vm #11 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #11
+0.0: No Datacenter Found: Allocation of Vm #12 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #12
+0.0: No Datacenter Found: Allocation of Vm #13 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #13
+0.0: No Datacenter Found: Allocation of Vm #14 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #14
+0.0: No Datacenter Found: Allocation of Vm #15 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #15
+0.0: No Datacenter Found: Allocation of Vm #16 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #16
+0.0: No Datacenter Found: Allocation of Vm #17 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #17
+0.0: No Datacenter Found: Allocation of Vm #18 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #18
+0.0: No Datacenter Found: Allocation of Vm #19 is failed (No Suitable Host Found!)
+0.0: Datacenter.guestAllocator: Couldn't find a host for Vm #19
+0.01: Broker: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #1 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #2 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #3 has been created in Datacenter #2, Host #1
+0.01: Broker: Vm #4 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #5 has been created in Datacenter #2, Host #1
+0.01: Broker: Creation of Vm #6 failed in Datacenter #2
+0.01: Broker: Creation of Vm #7 failed in Datacenter #2
+0.01: Broker: Creation of Vm #8 failed in Datacenter #2
+0.01: Broker: Creation of Vm #9 failed in Datacenter #2
+0.01: Broker: Creation of Vm #10 failed in Datacenter #2
+0.01: Broker: Creation of Vm #11 failed in Datacenter #2
+0.01: Broker: Creation of Vm #12 failed in Datacenter #2
+0.01: Broker: Creation of Vm #13 failed in Datacenter #2
+0.01: Broker: Creation of Vm #14 failed in Datacenter #2
+0.01: Broker: Creation of Vm #15 failed in Datacenter #2
+0.01: Broker: Creation of Vm #16 failed in Datacenter #2
+0.01: Broker: Creation of Vm #17 failed in Datacenter #2
+0.01: Broker: Creation of Vm #18 failed in Datacenter #2
+0.01: Broker: Creation of Vm #19 failed in Datacenter #2
+0.01: Broker: Trying to Create Vm #6 in Datacenter_1
+0.01: Broker: Trying to Create Vm #7 in Datacenter_1
+0.01: Broker: Trying to Create Vm #8 in Datacenter_1
+0.01: Broker: Trying to Create Vm #9 in Datacenter_1
+0.01: Broker: Trying to Create Vm #10 in Datacenter_1
+0.01: Broker: Trying to Create Vm #11 in Datacenter_1
+0.01: Broker: Trying to Create Vm #12 in Datacenter_1
+0.01: Broker: Trying to Create Vm #13 in Datacenter_1
+0.01: Broker: Trying to Create Vm #14 in Datacenter_1
+0.01: Broker: Trying to Create Vm #15 in Datacenter_1
+0.01: Broker: Trying to Create Vm #16 in Datacenter_1
+0.01: Broker: Trying to Create Vm #17 in Datacenter_1
+0.01: Broker: Trying to Create Vm #18 in Datacenter_1
+0.01: Broker: Trying to Create Vm #19 in Datacenter_1
+0.01: Datacenter_1.guestAllocator: Vm #6 has been allocated to Host #0
+0.01: Datacenter_1.guestAllocator: Vm #7 has been allocated to Host #0
+0.01: Datacenter_1.guestAllocator: Vm #8 has been allocated to Host #0
+0.01: Datacenter_1.guestAllocator: Vm #9 has been allocated to Host #1
+0.01: Datacenter_1.guestAllocator: Vm #10 has been allocated to Host #0
+0.01: Datacenter_1.guestAllocator: Vm #11 has been allocated to Host #1
+0.01: No Datacenter Found: Allocation of Vm #12 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #12
+0.01: No Datacenter Found: Allocation of Vm #13 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #13
+0.01: No Datacenter Found: Allocation of Vm #14 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #14
+0.01: No Datacenter Found: Allocation of Vm #15 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #15
+0.01: No Datacenter Found: Allocation of Vm #16 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #16
+0.01: No Datacenter Found: Allocation of Vm #17 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #17
+0.01: No Datacenter Found: Allocation of Vm #18 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #18
+0.01: No Datacenter Found: Allocation of Vm #19 is failed (No Suitable Host Found!)
+0.01: Datacenter.guestAllocator: Couldn't find a host for Vm #19
+0.02: Broker: Vm #6 has been created in Datacenter #3, Host #0
+0.02: Broker: Vm #7 has been created in Datacenter #3, Host #0
+0.02: Broker: Vm #8 has been created in Datacenter #3, Host #0
+0.02: Broker: Vm #9 has been created in Datacenter #3, Host #1
+0.02: Broker: Vm #10 has been created in Datacenter #3, Host #0
+0.02: Broker: Vm #11 has been created in Datacenter #3, Host #1
+0.02: Broker: Creation of Vm #12 failed in Datacenter #3
+0.02: Broker: Creation of Vm #13 failed in Datacenter #3
+0.02: Broker: Creation of Vm #14 failed in Datacenter #3
+0.02: Broker: Creation of Vm #15 failed in Datacenter #3
+0.02: Broker: Creation of Vm #16 failed in Datacenter #3
+0.02: Broker: Creation of Vm #17 failed in Datacenter #3
+0.02: Broker: Creation of Vm #18 failed in Datacenter #3
+0.02: Broker: Creation of Vm #19 failed in Datacenter #3
+0.02: Broker: Sending Cloudlet #0 to Vm #0
+0.02: Broker: Sending Cloudlet #1 to Vm #1
+0.02: Broker: Sending Cloudlet #2 to Vm #2
+0.02: Broker: Sending Cloudlet #3 to Vm #3
+0.02: Broker: Sending Cloudlet #4 to Vm #4
+0.02: Broker: Sending Cloudlet #5 to Vm #5
+0.02: Broker: Sending Cloudlet #6 to Vm #6
+0.02: Broker: Sending Cloudlet #7 to Vm #7
+0.02: Broker: Sending Cloudlet #8 to Vm #8
+0.02: Broker: Sending Cloudlet #9 to Vm #9
+0.02: Broker: Sending Cloudlet #10 to Vm #10
+0.02: Broker: Sending Cloudlet #11 to Vm #11
+0.02: Broker: Sending Cloudlet #12 to Vm #0
+0.02: Broker: Sending Cloudlet #13 to Vm #1
+0.02: Broker: Sending Cloudlet #14 to Vm #2
+0.02: Broker: Sending Cloudlet #15 to Vm #3
+0.02: Broker: Sending Cloudlet #16 to Vm #4
+0.02: Broker: Sending Cloudlet #17 to Vm #5
+0.02: Broker: Sending Cloudlet #18 to Vm #6
+0.02: Broker: Sending Cloudlet #19 to Vm #7
+0.02: Broker: Sending Cloudlet #20 to Vm #8
+0.02: Broker: Sending Cloudlet #21 to Vm #9
+0.02: Broker: Sending Cloudlet #22 to Vm #10
+0.02: Broker: Sending Cloudlet #23 to Vm #11
+0.02: Broker: Sending Cloudlet #24 to Vm #0
+0.02: Broker: Sending Cloudlet #25 to Vm #1
+0.02: Broker: Sending Cloudlet #26 to Vm #2
+0.02: Broker: Sending Cloudlet #27 to Vm #3
+0.02: Broker: Sending Cloudlet #28 to Vm #4
+0.02: Broker: Sending Cloudlet #29 to Vm #5
+0.02: Broker: Sending Cloudlet #30 to Vm #6
+0.02: Broker: Sending Cloudlet #31 to Vm #7
+0.02: Broker: Sending Cloudlet #32 to Vm #8
+0.02: Broker: Sending Cloudlet #33 to Vm #9
+0.02: Broker: Sending Cloudlet #34 to Vm #10
+0.02: Broker: Sending Cloudlet #35 to Vm #11
+0.02: Broker: Sending Cloudlet #36 to Vm #0
+0.02: Broker: Sending Cloudlet #37 to Vm #1
+0.02: Broker: Sending Cloudlet #38 to Vm #2
+0.02: Broker: Sending Cloudlet #39 to Vm #3
+3.0180000000000002: Broker: Cloudlet #4 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:1
+3.0180000000000002: Broker: Cloudlet #16 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:2
+3.0180000000000002: Broker: Cloudlet #28 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:3
+3.0180000000000002: Broker: Cloudlet #5 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:4
+3.0180000000000002: Broker: Cloudlet #17 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:5
+3.0180000000000002: Broker: Cloudlet #29 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:6
+3.0180000000000002: Broker: Cloudlet #6 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:7
+3.0180000000000002: Broker: Cloudlet #18 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:8
+3.0180000000000002: Broker: Cloudlet #30 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:9
+3.0180000000000002: Broker: Cloudlet #7 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:10
+3.0180000000000002: Broker: Cloudlet #19 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:11
+3.0180000000000002: Broker: Cloudlet #31 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:12
+3.0180000000000002: Broker: Cloudlet #8 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:13
+3.0180000000000002: Broker: Cloudlet #20 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:14
+3.0180000000000002: Broker: Cloudlet #32 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:15
+3.0180000000000002: Broker: Cloudlet #10 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:16
+3.0180000000000002: Broker: Cloudlet #22 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:17
+3.0180000000000002: Broker: Cloudlet #34 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:18
+3.0180000000000002: Broker: Cloudlet #9 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:19
+3.0180000000000002: Broker: Cloudlet #21 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:20
+3.0180000000000002: Broker: Cloudlet #33 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:21
+3.0180000000000002: Broker: Cloudlet #11 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:22
+3.0180000000000002: Broker: Cloudlet #23 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:23
+3.0180000000000002: Broker: Cloudlet #35 return received
+3.0180000000000002: Broker: The number of finished Cloudlets is:24
+4.018000000000001: Broker: Cloudlet #0 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:25
+4.018000000000001: Broker: Cloudlet #12 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:26
+4.018000000000001: Broker: Cloudlet #24 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:27
+4.018000000000001: Broker: Cloudlet #36 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:28
+4.018000000000001: Broker: Cloudlet #1 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:29
+4.018000000000001: Broker: Cloudlet #13 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:30
+4.018000000000001: Broker: Cloudlet #25 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:31
+4.018000000000001: Broker: Cloudlet #37 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:32
+4.018000000000001: Broker: Cloudlet #2 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:33
+4.018000000000001: Broker: Cloudlet #14 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:34
+4.018000000000001: Broker: Cloudlet #26 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:35
+4.018000000000001: Broker: Cloudlet #38 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:36
+4.018000000000001: Broker: Cloudlet #3 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:37
+4.018000000000001: Broker: Cloudlet #15 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:38
+4.018000000000001: Broker: Cloudlet #27 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:39
+4.018000000000001: Broker: Cloudlet #39 return received
+4.018000000000001: Broker: The number of finished Cloudlets is:40
+4.018000000000001: Broker: All Cloudlets executed. Finishing...
+4.018000000000001: Broker: Destroying Vm #0
+4.018000000000001: Broker: Destroying Vm #1
+4.018000000000001: Broker: Destroying Vm #2
+4.018000000000001: Broker: Destroying Vm #3
+4.018000000000001: Broker: Destroying Vm #4
+4.018000000000001: Broker: Destroying Vm #5
+4.018000000000001: Broker: Destroying Vm #6
+4.018000000000001: Broker: Destroying Vm #7
+4.018000000000001: Broker: Destroying Vm #8
+4.018000000000001: Broker: Destroying Vm #9
+4.018000000000001: Broker: Destroying Vm #10
+4.018000000000001: Broker: Destroying Vm #11
+4.018000000000001: Broker is shutting down...
+4.018000000000001: Simulation: No more future events
+4.018000000000001: CloudInformationService is shutting down...
+4.018000000000001: CloudInformationService: Notify all CloudSim entities for shutting down.
+4.018000000000001: Datacenter_0 is shutting down...
+4.018000000000001: Datacenter_1 is shutting down...
+4.018000000000001: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
+    4        SUCCESS        2            4            3        0.02            3.02
+    16        SUCCESS        2            4            3        0.02            3.02
+    28        SUCCESS        2            4            3        0.02            3.02
+    5        SUCCESS        2            5            3        0.02            3.02
+    17        SUCCESS        2            5            3        0.02            3.02
+    29        SUCCESS        2            5            3        0.02            3.02
+    6        SUCCESS        3            6            3        0.02            3.02
+    18        SUCCESS        3            6            3        0.02            3.02
+    30        SUCCESS        3            6            3        0.02            3.02
+    7        SUCCESS        3            7            3        0.02            3.02
+    19        SUCCESS        3            7            3        0.02            3.02
+    31        SUCCESS        3            7            3        0.02            3.02
+    8        SUCCESS        3            8            3        0.02            3.02
+    20        SUCCESS        3            8            3        0.02            3.02
+    32        SUCCESS        3            8            3        0.02            3.02
+    10        SUCCESS        3            10            3        0.02            3.02
+    22        SUCCESS        3            10            3        0.02            3.02
+    34        SUCCESS        3            10            3        0.02            3.02
+    9        SUCCESS        3            9            3        0.02            3.02
+    21        SUCCESS        3            9            3        0.02            3.02
+    33        SUCCESS        3            9            3        0.02            3.02
+    11        SUCCESS        3            11            3        0.02            3.02
+    23        SUCCESS        3            11            3        0.02            3.02
+    35        SUCCESS        3            11            3        0.02            3.02
+    0        SUCCESS        2            0            4        0.02            4.02
+    12        SUCCESS        2            0            4        0.02            4.02
+    24        SUCCESS        2            0            4        0.02            4.02
+    36        SUCCESS        2            0            4        0.02            4.02
+    1        SUCCESS        2            1            4        0.02            4.02
+    13        SUCCESS        2            1            4        0.02            4.02
+    25        SUCCESS        2            1            4        0.02            4.02
+    37        SUCCESS        2            1            4        0.02            4.02
+    2        SUCCESS        2            2            4        0.02            4.02
+    14        SUCCESS        2            2            4        0.02            4.02
+    26        SUCCESS        2            2            4        0.02            4.02
+    38        SUCCESS        2            2            4        0.02            4.02
+    3        SUCCESS        2            3            4        0.02            4.02
+    15        SUCCESS        2            3            4        0.02            4.02
+    27        SUCCESS        2            3            4        0.02            4.02
+    39        SUCCESS        2            3            4        0.02            4.02
+CloudSimExample6 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample7" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="6.154">
+    <system-out><![CDATA[Starting CloudSimExample7...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker_0 is starting...
+Entities started.
+0.0: Broker_0: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker_0: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #1 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #2 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #3 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #4 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #2 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #3 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #4 has been allocated to Host #0
+0.01: Broker_0: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker_0: Vm #1 has been created in Datacenter #2, Host #0
+0.01: Broker_0: Vm #2 has been created in Datacenter #2, Host #0
+0.01: Broker_0: Vm #3 has been created in Datacenter #2, Host #0
+0.01: Broker_0: Vm #4 has been created in Datacenter #2, Host #0
+0.01: Broker_0: Sending Cloudlet #0 to Vm #0
+0.01: Broker_0: Sending Cloudlet #1 to Vm #1
+0.01: Broker_0: Sending Cloudlet #2 to Vm #2
+0.01: Broker_0: Sending Cloudlet #3 to Vm #3
+0.01: Broker_0: Sending Cloudlet #4 to Vm #4
+0.01: Broker_0: Sending Cloudlet #5 to Vm #0
+0.01: Broker_0: Sending Cloudlet #6 to Vm #1
+0.01: Broker_0: Sending Cloudlet #7 to Vm #2
+0.01: Broker_0: Sending Cloudlet #8 to Vm #3
+0.01: Broker_0: Sending Cloudlet #9 to Vm #4
+
+
+
+200.0: The simulation is paused for 5 sec 
+
+
+Adding: Broker_1
+200.0: Broker_1 is starting...
+200.0: Broker_1: Cloud Resource List received with 2 datacenter(s)
+200.0: Broker_1: Trying to Create Vm #100 in Datacenter_0
+200.0: Broker_1: Trying to Create Vm #101 in Datacenter_0
+200.0: Broker_1: Trying to Create Vm #102 in Datacenter_0
+200.0: Broker_1: Trying to Create Vm #103 in Datacenter_0
+200.0: Broker_1: Trying to Create Vm #104 in Datacenter_0
+200.0: Datacenter_0.guestAllocator: Vm #100 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #101 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #102 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #103 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #104 has been allocated to Host #1
+200.01: Broker_1: Vm #100 has been created in Datacenter #2, Host #0
+200.01: Broker_1: Vm #101 has been created in Datacenter #2, Host #0
+200.01: Broker_1: Vm #102 has been created in Datacenter #2, Host #0
+200.01: Broker_1: Vm #103 has been created in Datacenter #2, Host #0
+200.01: Broker_1: Vm #104 has been created in Datacenter #2, Host #1
+200.01: Broker_1: Sending Cloudlet #100 to Vm #100
+200.01: Broker_1: Sending Cloudlet #101 to Vm #101
+200.01: Broker_1: Sending Cloudlet #102 to Vm #102
+200.01: Broker_1: Sending Cloudlet #103 to Vm #103
+200.01: Broker_1: Sending Cloudlet #104 to Vm #104
+200.01: Broker_1: Sending Cloudlet #105 to Vm #100
+200.01: Broker_1: Sending Cloudlet #106 to Vm #101
+200.01: Broker_1: Sending Cloudlet #107 to Vm #102
+200.01: Broker_1: Sending Cloudlet #108 to Vm #103
+200.01: Broker_1: Sending Cloudlet #109 to Vm #104
+320.008: Broker_0: Cloudlet #0 return received
+320.008: Broker_0: The number of finished Cloudlets is:1
+320.008: Broker_0: Cloudlet #5 return received
+320.008: Broker_0: The number of finished Cloudlets is:2
+320.008: Broker_0: Cloudlet #1 return received
+320.008: Broker_0: The number of finished Cloudlets is:3
+320.008: Broker_0: Cloudlet #6 return received
+320.008: Broker_0: The number of finished Cloudlets is:4
+320.008: Broker_0: Cloudlet #2 return received
+320.008: Broker_0: The number of finished Cloudlets is:5
+320.008: Broker_0: Cloudlet #7 return received
+320.008: Broker_0: The number of finished Cloudlets is:6
+320.008: Broker_0: Cloudlet #3 return received
+320.008: Broker_0: The number of finished Cloudlets is:7
+320.008: Broker_0: Cloudlet #8 return received
+320.008: Broker_0: The number of finished Cloudlets is:8
+320.008: Broker_0: Cloudlet #4 return received
+320.008: Broker_0: The number of finished Cloudlets is:9
+320.008: Broker_0: Cloudlet #9 return received
+320.008: Broker_0: The number of finished Cloudlets is:10
+320.008: Broker_0: All Cloudlets executed. Finishing...
+320.008: Broker_0: Destroying Vm #0
+320.008: Broker_0: Destroying Vm #1
+320.008: Broker_0: Destroying Vm #2
+320.008: Broker_0: Destroying Vm #3
+320.008: Broker_0: Destroying Vm #4
+320.008: Broker_0 is shutting down...
+520.008: Broker_1: Cloudlet #100 return received
+520.008: Broker_1: The number of finished Cloudlets is:1
+520.008: Broker_1: Cloudlet #105 return received
+520.008: Broker_1: The number of finished Cloudlets is:2
+520.008: Broker_1: Cloudlet #101 return received
+520.008: Broker_1: The number of finished Cloudlets is:3
+520.008: Broker_1: Cloudlet #106 return received
+520.008: Broker_1: The number of finished Cloudlets is:4
+520.008: Broker_1: Cloudlet #102 return received
+520.008: Broker_1: The number of finished Cloudlets is:5
+520.008: Broker_1: Cloudlet #107 return received
+520.008: Broker_1: The number of finished Cloudlets is:6
+520.008: Broker_1: Cloudlet #103 return received
+520.008: Broker_1: The number of finished Cloudlets is:7
+520.008: Broker_1: Cloudlet #108 return received
+520.008: Broker_1: The number of finished Cloudlets is:8
+520.008: Broker_1: Cloudlet #104 return received
+520.008: Broker_1: The number of finished Cloudlets is:9
+520.008: Broker_1: Cloudlet #109 return received
+520.008: Broker_1: The number of finished Cloudlets is:10
+520.008: Broker_1: All Cloudlets executed. Finishing...
+520.008: Broker_1: Destroying Vm #100
+520.008: Broker_1: Destroying Vm #101
+520.008: Broker_1: Destroying Vm #102
+520.008: Broker_1: Destroying Vm #103
+520.008: Broker_1: Destroying Vm #104
+520.008: Broker_1 is shutting down...
+520.01: Simulation: No more future events
+520.01: CloudInformationService is shutting down...
+520.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+520.01: Datacenter_0 is shutting down...
+520.01: Datacenter_1 is shutting down...
+520.01: Broker_0 is shutting down...
+520.01: Broker_1 is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
+    0        SUCCESS        2            0            320        0.01            320.01
+    5        SUCCESS        2            0            320        0.01            320.01
+    1        SUCCESS        2            1            320        0.01            320.01
+    6        SUCCESS        2            1            320        0.01            320.01
+    2        SUCCESS        2            2            320        0.01            320.01
+    7        SUCCESS        2            2            320        0.01            320.01
+    3        SUCCESS        2            3            320        0.01            320.01
+    8        SUCCESS        2            3            320        0.01            320.01
+    4        SUCCESS        2            4            320        0.01            320.01
+    9        SUCCESS        2            4            320        0.01            320.01
+CloudSimExample7 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample8" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.009">
+    <system-out><![CDATA[Starting CloudSimExample8...
+Initialising...
+Starting CloudSim version 7.0
+0.0: GlobalBroker is starting...
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker_0 is starting...
+Entities started.
+0.0: Broker_0: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker_0: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #1 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #2 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #3 in Datacenter_0
+0.0: Broker_0: Trying to Create Vm #4 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #2 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #3 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #4 has been allocated to Host #0
+0.01: Broker_0: Vm #0 has been created in Datacenter #3, Host #0
+0.01: Broker_0: Vm #1 has been created in Datacenter #3, Host #0
+0.01: Broker_0: Vm #2 has been created in Datacenter #3, Host #0
+0.01: Broker_0: Vm #3 has been created in Datacenter #3, Host #0
+0.01: Broker_0: Vm #4 has been created in Datacenter #3, Host #0
+0.01: Broker_0: Sending Cloudlet #0 to Vm #0
+0.01: Broker_0: Sending Cloudlet #1 to Vm #1
+0.01: Broker_0: Sending Cloudlet #2 to Vm #2
+0.01: Broker_0: Sending Cloudlet #3 to Vm #3
+0.01: Broker_0: Sending Cloudlet #4 to Vm #4
+0.01: Broker_0: Sending Cloudlet #5 to Vm #0
+0.01: Broker_0: Sending Cloudlet #6 to Vm #1
+0.01: Broker_0: Sending Cloudlet #7 to Vm #2
+0.01: Broker_0: Sending Cloudlet #8 to Vm #3
+0.01: Broker_0: Sending Cloudlet #9 to Vm #4
+Adding: GlobalBroker_
+200.0: GlobalBroker_ is starting...
+200.0: GlobalBroker_: Cloud Resource List received with 2 datacenter(s)
+200.0: GlobalBroker_: Trying to Create Vm #100 in Datacenter_0
+200.0: GlobalBroker_: Trying to Create Vm #101 in Datacenter_0
+200.0: GlobalBroker_: Trying to Create Vm #102 in Datacenter_0
+200.0: GlobalBroker_: Trying to Create Vm #103 in Datacenter_0
+200.0: GlobalBroker_: Trying to Create Vm #104 in Datacenter_0
+200.0: Datacenter_0.guestAllocator: Vm #100 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #101 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #102 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #103 has been allocated to Host #0
+200.0: Datacenter_0.guestAllocator: Vm #104 has been allocated to Host #1
+200.01: GlobalBroker_: Vm #100 has been created in Datacenter #3, Host #0
+200.01: GlobalBroker_: Vm #101 has been created in Datacenter #3, Host #0
+200.01: GlobalBroker_: Vm #102 has been created in Datacenter #3, Host #0
+200.01: GlobalBroker_: Vm #103 has been created in Datacenter #3, Host #0
+200.01: GlobalBroker_: Vm #104 has been created in Datacenter #3, Host #1
+200.01: GlobalBroker_: Sending Cloudlet #100 to Vm #100
+200.01: GlobalBroker_: Sending Cloudlet #101 to Vm #101
+200.01: GlobalBroker_: Sending Cloudlet #102 to Vm #102
+200.01: GlobalBroker_: Sending Cloudlet #103 to Vm #103
+200.01: GlobalBroker_: Sending Cloudlet #104 to Vm #104
+200.01: GlobalBroker_: Sending Cloudlet #105 to Vm #100
+200.01: GlobalBroker_: Sending Cloudlet #106 to Vm #101
+200.01: GlobalBroker_: Sending Cloudlet #107 to Vm #102
+200.01: GlobalBroker_: Sending Cloudlet #108 to Vm #103
+200.01: GlobalBroker_: Sending Cloudlet #109 to Vm #104
+320.01: Broker_0: Cloudlet #0 return received
+320.01: Broker_0: The number of finished Cloudlets is:1
+320.01: Broker_0: Cloudlet #5 return received
+320.01: Broker_0: The number of finished Cloudlets is:2
+320.01: Broker_0: Cloudlet #1 return received
+320.01: Broker_0: The number of finished Cloudlets is:3
+320.01: Broker_0: Cloudlet #6 return received
+320.01: Broker_0: The number of finished Cloudlets is:4
+320.01: Broker_0: Cloudlet #2 return received
+320.01: Broker_0: The number of finished Cloudlets is:5
+320.01: Broker_0: Cloudlet #7 return received
+320.01: Broker_0: The number of finished Cloudlets is:6
+320.01: Broker_0: Cloudlet #3 return received
+320.01: Broker_0: The number of finished Cloudlets is:7
+320.01: Broker_0: Cloudlet #8 return received
+320.01: Broker_0: The number of finished Cloudlets is:8
+320.01: Broker_0: Cloudlet #4 return received
+320.01: Broker_0: The number of finished Cloudlets is:9
+320.01: Broker_0: Cloudlet #9 return received
+320.01: Broker_0: The number of finished Cloudlets is:10
+320.01: Broker_0: All Cloudlets executed. Finishing...
+320.01: Broker_0: Destroying Vm #0
+320.01: Broker_0: Destroying Vm #1
+320.01: Broker_0: Destroying Vm #2
+320.01: Broker_0: Destroying Vm #3
+320.01: Broker_0: Destroying Vm #4
+320.01: Broker_0 is shutting down...
+520.01: GlobalBroker_: Cloudlet #100 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:1
+520.01: GlobalBroker_: Cloudlet #105 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:2
+520.01: GlobalBroker_: Cloudlet #101 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:3
+520.01: GlobalBroker_: Cloudlet #106 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:4
+520.01: GlobalBroker_: Cloudlet #102 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:5
+520.01: GlobalBroker_: Cloudlet #107 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:6
+520.01: GlobalBroker_: Cloudlet #103 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:7
+520.01: GlobalBroker_: Cloudlet #108 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:8
+520.01: GlobalBroker_: Cloudlet #104 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:9
+520.01: GlobalBroker_: Cloudlet #109 return received
+520.01: GlobalBroker_: The number of finished Cloudlets is:10
+520.01: GlobalBroker_: All Cloudlets executed. Finishing...
+520.01: GlobalBroker_: Destroying Vm #100
+520.01: GlobalBroker_: Destroying Vm #101
+520.01: GlobalBroker_: Destroying Vm #102
+520.01: GlobalBroker_: Destroying Vm #103
+520.01: GlobalBroker_: Destroying Vm #104
+520.01: GlobalBroker_ is shutting down...
+520.01: Simulation: No more future events
+520.01: CloudInformationService is shutting down...
+520.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+520.01: Datacenter_0 is shutting down...
+520.01: Datacenter_1 is shutting down...
+520.01: Broker_0 is shutting down...
+520.01: GlobalBroker_ is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
+    0        SUCCESS        3            0            320        0.01            320.01
+    5        SUCCESS        3            0            320        0.01            320.01
+    1        SUCCESS        3            1            320        0.01            320.01
+    6        SUCCESS        3            1            320        0.01            320.01
+    2        SUCCESS        3            2            320        0.01            320.01
+    7        SUCCESS        3            2            320        0.01            320.01
+    3        SUCCESS        3            3            320        0.01            320.01
+    8        SUCCESS        3            3            320        0.01            320.01
+    4        SUCCESS        3            4            320        0.01            320.01
+    9        SUCCESS        3            4            320        0.01            320.01
+    100        SUCCESS        3            100            320        200.01            520.01
+    105        SUCCESS        3            100            320        200.01            520.01
+    101        SUCCESS        3            101            320        200.01            520.01
+    106        SUCCESS        3            101            320        200.01            520.01
+    102        SUCCESS        3            102            320        200.01            520.01
+    107        SUCCESS        3            102            320        200.01            520.01
+    103        SUCCESS        3            103            320        200.01            520.01
+    108        SUCCESS        3            103            320        200.01            520.01
+    104        SUCCESS        3            104            320        200.01            520.01
+    109        SUCCESS        3            104            320        200.01            520.01
+CloudSimExample8 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runCloudSimExample9" classname="org.cloudbus.cloudsim.examples.CloudSimExampleTest" time="0.006">
+    <system-out><![CDATA[Starting CloudSimExample9...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 datacenter(s)
+0.0: Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: Broker: Trying to Create Vm #1 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #1
+0.01: Broker: Vm #0 has been created in Datacenter #2, Host #0
+0.01: Broker: Vm #1 has been created in Datacenter #2, Host #1
+0.01: Broker: Sending Cloudlet #0 to Vm #0
+0.01: Broker: Sending Cloudlet #1 to Vm #0
+0.01: Broker: Sending Cloudlet #2 to Vm #0
+0.01: Broker: Sending Cloudlet #3 to Vm #1
+0.01: Broker: Sending Cloudlet #4 to Vm #1
+0.01: Broker: Sending Cloudlet #5 to Vm #1
+10.01: Broker: Cloudlet #3 return received
+10.01: Broker: The number of finished Cloudlets is:1
+30.008000000000003: Broker: Cloudlet #0 return received
+30.008000000000003: Broker: The number of finished Cloudlets is:2
+110.00999999999999: Broker: Cloudlet #4 return received
+110.00999999999999: Broker: The number of finished Cloudlets is:3
+210.00799999999998: Broker: Cloudlet #1 return received
+210.00799999999998: Broker: The number of finished Cloudlets is:4
+1110.01: Broker: Cloudlet #2 return received
+1110.01: Broker: The number of finished Cloudlets is:5
+1110.01: Broker: Cloudlet #5 return received
+1110.01: Broker: The number of finished Cloudlets is:6
+1110.01: Broker: All Cloudlets executed. Finishing...
+1110.01: Broker: Destroying Vm #0
+1110.01: Broker: Destroying Vm #1
+1110.01: Broker is shutting down...
+2000.01: Simulation: No more future events
+2000.01: CloudInformationService is shutting down...
+2000.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+2000.01: Datacenter_0 is shutting down...
+2000.01: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        30        0.01        30.01
+    1        SUCCESS        2            0        210        0.01        210.01
+    2        SUCCESS        2            0        1110        0.01        1110.01
+    3        SUCCESS        2            1        10        0.01        10.01
+    4        SUCCESS        2            1        100        10.01        110.01
+    5        SUCCESS        2            1        1000        110.01        1110.01
+CloudSimExample9 finished!
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.cloudbus.cloudsim.examples.NetworkExampleTest" time="0.052" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\CodeJava\cloudsim\modules\cloudsim-examples\target\test-classes;D:\CodeJava\cloudsim\modules\cloudsim-examples\target\classes;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-net\commons-net\3.11.1\commons-net-3.11.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Admin\.m2\repository\io\gatling\uncommons\maths\uncommons-maths\1.2.3\uncommons-maths-1.2.3.jar;C:\Users\Admin\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\com\maxmind\geoip2\geoip2\4.2.0\geoip2-4.2.0.jar;C:\Users\Admin\.m2\repository\com\maxmind\db\maxmind-db\3.1.0\maxmind-db-3.1.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\Admin\.m2\repository\org\easymock\easymock\5.3.0\easymock-5.3.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.4\objenesis-3.4.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\CodeJava\cloudsim\modules\cloudsim\target\cloudsim-7.0.0-alpha.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire14832144379102121873\surefirebooter-20250318194339961_3.jar C:\Users\Admin\AppData\Local\Temp\surefire14832144379102121873 2025-03-18T19-43-39_048-jvmRun1 surefire-20250318194339961_1tmp surefire_0-20250318194339961_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\CodeJava\cloudsim\modules\cloudsim-examples\target\test-classes;D:\CodeJava\cloudsim\modules\cloudsim-examples\target\classes;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-net\commons-net\3.11.1\commons-net-3.11.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Admin\.m2\repository\io\gatling\uncommons\maths\uncommons-maths\1.2.3\uncommons-maths-1.2.3.jar;C:\Users\Admin\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\com\maxmind\geoip2\geoip2\4.2.0\geoip2-4.2.0.jar;C:\Users\Admin\.m2\repository\com\maxmind\db\maxmind-db\3.1.0\maxmind-db-3.1.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\Admin\.m2\repository\org\easymock\easymock\5.3.0\easymock-5.3.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.4\objenesis-3.4.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\CodeJava\cloudsim\modules\cloudsim\target\cloudsim-7.0.0-alpha.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\CodeJava\cloudsim\modules\cloudsim-examples"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire14832144379102121873\surefirebooter-20250318194339961_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.5"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="D:\CodeJava\cloudsim\modules\cloudsim-examples"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Roaming\Python\Python313\Scripts;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\Python\Python313\Scripts;C:\msys64\ucrt64\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Roaming\Composer\vendor\bin;D:\Nmap;D:\IntelliJ IDEA\IntelliJ IDEA 2024.3.5\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runNetworkExample1" classname="org.cloudbus.cloudsim.examples.NetworkExampleTest" time="0.017">
+    <system-out><![CDATA[Starting NetworkExample1...
+Initialising...
+Topology file: /D:/CodeJava/cloudsim/modules/cloudsim-examples/target/test-classes/topology.brite
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 datacenter(s)
+7.800000190734863: Broker: Trying to Create Vm #0 in Datacenter_0
+11.700000286102295: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+15.610000381469726: Broker: Vm #0 has been created in Datacenter #2, Host #0
+15.610000381469726: Broker: Sending Cloudlet #0 to Vm #0
+183.41000057220458: Broker: Cloudlet #0 return received
+183.41000057220458: Broker: The number of finished Cloudlets is:1
+183.41000057220458: Broker: All Cloudlets executed. Finishing...
+183.41000057220458: Broker: Destroying Vm #0
+183.41000057220458: Broker is shutting down...
+187.310000667572: Simulation: No more future events
+187.310000667572: CloudInformationService is shutting down...
+187.310000667572: CloudInformationService: Notify all CloudSim entities for shutting down.
+187.310000667572: Datacenter_0 is shutting down...
+187.310000667572: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        160        19.51        179.51
+NetworkExample1 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runNetworkExample2" classname="org.cloudbus.cloudsim.examples.NetworkExampleTest" time="0.018">
+    <system-out><![CDATA[Starting NetworkExample2...
+Initialising...
+Topology file: /D:/CodeJava/cloudsim/modules/cloudsim-examples/target/test-classes/topology.brite
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 2 datacenter(s)
+10.0: Broker: Trying to Create Vm #0 in Datacenter_0
+10.0: Broker: Trying to Create Vm #1 in Datacenter_0
+13.900000095367432: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+13.900000095367432: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #0
+17.81000019073486: Broker: Vm #0 has been created in Datacenter #2, Host #0
+17.81000019073486: Broker: Vm #1 has been created in Datacenter #2, Host #0
+17.81000019073486: Broker: Sending Cloudlet #0 to Vm #0
+17.81000019073486: Broker: Sending Cloudlet #1 to Vm #1
+185.61000038146972: Broker: Cloudlet #0 return received
+185.61000038146972: Broker: The number of finished Cloudlets is:1
+185.61000038146972: Broker: Cloudlet #1 return received
+185.61000038146972: Broker: The number of finished Cloudlets is:2
+185.61000038146972: Broker: All Cloudlets executed. Finishing...
+185.61000038146972: Broker: Destroying Vm #0
+185.61000038146972: Broker: Destroying Vm #1
+185.61000038146972: Broker is shutting down...
+189.51000047683715: Simulation: No more future events
+189.51000047683715: CloudInformationService is shutting down...
+189.51000047683715: CloudInformationService: Notify all CloudSim entities for shutting down.
+189.51000047683715: Datacenter_0 is shutting down...
+189.51000047683715: Datacenter_1 is shutting down...
+189.51000047683715: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        160        21.71        181.71
+    1        SUCCESS        2            1        160        21.71        181.71
+NetworkExample2 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runNetworkExample3" classname="org.cloudbus.cloudsim.examples.NetworkExampleTest" time="0.005">
+    <system-out><![CDATA[Starting NetworkExample3...
+Initialising...
+Topology file: /D:/CodeJava/cloudsim/modules/cloudsim-examples/target/test-classes/topology.brite
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Datacenter_1 is starting...
+0.0: Broker1 is starting...
+0.0: Broker2 is starting...
+Entities started.
+0.0: Broker1: Cloud Resource List received with 2 datacenter(s)
+0.0: Broker2: Cloud Resource List received with 2 datacenter(s)
+8.0: Broker2: Trying to Create Vm #0 in Datacenter_0
+10.0: Broker1: Trying to Create Vm #0 in Datacenter_0
+11.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+13.900000095367432[GuestScheduler.guestCreate] Allocation of Vm #0 failed by Number of PEs or MIPS
+13.900000095367432: Datacenter.guestAllocator: Couldn't find a host for Vm #0
+14.01: Broker2: Vm #0 has been created in Datacenter #2, Host #0
+14.01: Broker2: Sending Cloudlet #0 to Vm #0
+17.81000019073486: Broker1: Creation of Vm #0 failed in Datacenter #2
+17.81000019073486: Broker1: Trying to Create Vm #0 in Datacenter_1
+22.81000019073486: Datacenter_1.guestAllocator: Vm #0 has been allocated to Host #0
+27.82000019073486: Broker1: Vm #0 has been created in Datacenter #3, Host #0
+27.82000019073486: Broker1: Sending Cloudlet #0 to Vm #0
+180.01: Broker2: Cloudlet #0 return received
+180.01: Broker2: The number of finished Cloudlets is:1
+180.01: Broker2: All Cloudlets executed. Finishing...
+180.01: Broker2: Destroying Vm #0
+180.01: Broker2 is shutting down...
+197.82000019073485: Broker1: Cloudlet #0 return received
+197.82000019073485: Broker1: The number of finished Cloudlets is:1
+197.82000019073485: Broker1: All Cloudlets executed. Finishing...
+197.82000019073485: Broker1: Destroying Vm #0
+197.82000019073485: Broker1 is shutting down...
+202.82000019073485: Simulation: No more future events
+202.82000019073485: CloudInformationService is shutting down...
+202.82000019073485: CloudInformationService: Notify all CloudSim entities for shutting down.
+202.82000019073485: Datacenter_0 is shutting down...
+202.82000019073485: Datacenter_1 is shutting down...
+202.82000019073485: Broker1 is shutting down...
+202.82000019073485: Broker2 is shutting down...
+Simulation completed.
+Simulation completed.
+=============> User 4    
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        3            0        160        32.82        192.82
+=============> User 5    
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        160        17.01        177.01
+NetworkExample3 finished!
+]]></system-out>
+  </testcase>
+  <testcase name="runNetworkExample4" classname="org.cloudbus.cloudsim.examples.NetworkExampleTest" time="0.004">
+    <system-out><![CDATA[Starting NetworkExample4...
+Initialising...
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 datacenter(s)
+14.0: Broker: Trying to Create Vm #0 in Datacenter_0
+21.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #0
+28.009999999999998: Broker: Vm #0 has been created in Datacenter #2, Host #0
+28.009999999999998: Broker: Sending Cloudlet #0 to Vm #0
+202.01: Broker: Cloudlet #0 return received
+202.01: Broker: The number of finished Cloudlets is:1
+202.01: Broker: All Cloudlets executed. Finishing...
+202.01: Broker: Destroying Vm #0
+202.01: Broker is shutting down...
+209.01: Simulation: No more future events
+209.01: CloudInformationService is shutting down...
+209.01: CloudInformationService: Notify all CloudSim entities for shutting down.
+209.01: Datacenter_0 is shutting down...
+209.01: Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    0        SUCCESS        2            0        160        35.01        195.01
+NetworkExample4 finished!
+]]></system-out>
+  </testcase>
+</testsuite>
