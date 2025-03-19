@@ -25,6 +25,7 @@ D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\clouds
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\EX\CloudSimDisksExample.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\EX\DelayExample1.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\EX\RealisticCloudletArrivalExample.java
+D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\MyCloudSimTest.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\network\datacenter\BagOfTaskAppExample.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\network\datacenter\NetworkConstants.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\network\datacenter\TandemAppExample1.java
@@ -93,6 +94,7 @@ D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\clouds
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\power\random\ThrMu.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\power\random\ThrRs.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\power\RunnerAbstract.java
+D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\tempCodeRunnerFile.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\TestScheduledResource.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\web\CloudSimWebExample.java
 D:\CodeJava\cloudsim\modules\cloudsim-examples\src\main\java\org\cloudbus\cloudsim\examples\web\CloudSimWorkloadWebExample.java

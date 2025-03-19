@@ -1,4 +1,88 @@
 -------------------------------------------------------------------------------
 Test set: org.cloudbus.cloudsim.examples.NetworkExampleTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in org.cloudbus.cloudsim.examples.NetworkExampleTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! -- in org.cloudbus.cloudsim.examples.NetworkExampleTest
+org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample1 -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample1
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample1(NetworkExampleTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample1
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.lambda$runNetworkExample1$0(NetworkExampleTest.java:30)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.cloudbus.cloudsim.examples.network.NetworkExample1
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 8 more
+
+org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample2 -- Time elapsed: 0.017 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample2
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample2(NetworkExampleTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample2
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.lambda$runNetworkExample2$1(NetworkExampleTest.java:42)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.cloudbus.cloudsim.examples.network.NetworkExample2
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 8 more
+
+org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample3 -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample3
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample3(NetworkExampleTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample3
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.lambda$runNetworkExample3$2(NetworkExampleTest.java:54)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.cloudbus.cloudsim.examples.network.NetworkExample3
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 8 more
+
+org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample4 -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample4
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.runNetworkExample4(NetworkExampleTest.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoClassDefFoundError: org/cloudbus/cloudsim/examples/network/NetworkExample4
+	at org.cloudbus.cloudsim.examples.NetworkExampleTest.lambda$runNetworkExample4$3(NetworkExampleTest.java:74)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.cloudbus.cloudsim.examples.network.NetworkExample4
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 8 more
+
