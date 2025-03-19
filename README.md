@@ -1,5 +1,6 @@
 **📌 NGHIÊN CỨU MÔ HÌNH CUNG CẤP TÀI NGUYÊN TRONG ĐIỆN TOÁN ĐÁM MÂY 🌥️**
-
+<!-- chcp 65001
+ -->
 🚀 **Mục tiêu của tôi** là tìm hiểu về cách thức cung cấp tài nguyên trong điện toán đám mây và ứng dụng công cụ mô phỏng **CloudSim** để thực hiện các thử nghiệm thực tế. Đây là một phần quan trọng trong việc tối ưu hóa hạ tầng và cải thiện hiệu suất hệ thống trên môi trường đám mây.
 
 🔍 **Nội dung nghiên cứu**:  
